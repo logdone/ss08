@@ -13,8 +13,6 @@ import android.widget.Toast;
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.beec.ss08.BuildConfig;
-import com.beec.ss08.R;
 
 import java.util.Collections;
 
@@ -83,7 +81,7 @@ public class FirebaseUIActivity extends AppCompatActivity implements View.OnClic
         startActivityForResult(intent, RC_SIGN_IN);
     }
 
-    private void updateUI(FirebaseUser user) {
+    public void updateUI(FirebaseUser user) {
         if (user != null) {
             // Signed in
             mStatusView.setText(getString(R.string.firebaseui_status_fmt, user.getEmail()));
@@ -101,9 +99,11 @@ public class FirebaseUIActivity extends AppCompatActivity implements View.OnClic
         }
     }
 
-    private void signOut() {
-        AuthUI.getInstance().signOut(this);
-        updateUI(null);
+    public void signOut() {
+       // AuthUI.getInstance().signOut(this);
+       // updateUI(null);
+
+
     }
 
     @Override
@@ -111,10 +111,16 @@ public class FirebaseUIActivity extends AppCompatActivity implements View.OnClic
         switch (view.getId()) {
             case R.id.signInButton:
                 startSignIn();
+                Toast.makeText(this, "lalalalalla", Toast.LENGTH_SHORT);
+
                 break;
             case R.id.signOutButton:
-                signOut();
+               // signOut();
+
+
+                Toast.makeText(this, "hahhaahahhaha", Toast.LENGTH_SHORT);
                 break;
+
         }
     }
 }

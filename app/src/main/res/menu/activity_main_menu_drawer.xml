@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icons8_home_50"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_check_list"
+            android:icon="@drawable/check_list"
+            android:title="Check List" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/todo_list"
+            android:title="Instructions" />
+        <item
+            android:id="@+id/nav_find_location"
+            android:icon="@drawable/find_loacation"
+            android:title="Find Location" />
+        <item
+            android:id="@+id/nav_host"
+            android:icon="@drawable/host_3"
+            android:title="Open Home" />
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_edit_profile"
+                android:icon="@drawable/profile"
+                android:title="Edit profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/icons8_exit_50"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EditProfFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:paddingTop="15dp" >
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:paddingTop="15dp"
+
+            >
+
+            <EditText
+                android:id="@+id/input_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:paddingTop="15dp"
+            >
+            <!--           <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/fui_ic_googleg_color_24dp"
+                           android:paddingTop="14dp"
+                           />-->
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:paddingTop="15dp"
+            >
+            <EditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_em1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:paddingTop="15dp"
+
+            >
+            <!--        <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fui_ic_googleg_color_24dp"
+                        android:paddingTop="14dp"
+                        />-->
+            <EditText
+                android:id="@+id/input_em3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Emergency contact 1"
+                android:inputType="phone"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_em3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:paddingTop="15dp"
+
+            >
+
+            <EditText
+                android:id="@+id/input_em1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Emergency contact 2"
+                android:inputType="phone"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_em2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:paddingTop="15dp"
+            android:layout_marginBottom="40dp"
+
+            >
+            <!--        <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fui_ic_googleg_color_24dp"
+                        android:paddingTop="14dp"
+                        />-->
+          <!--  <EditText
+                android:id="@+id/input_em2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Emergency contact 3"
+                android:inputType="phone"
+                android:layout_marginBottom="40dp"
+                />-->
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/add_open_home_btn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:text="Update profile"
+            android:theme="@style/ThemeOverlay.MyDarkButton"
+            android:layout_gravity="center"/>
+        <!--        <Button
+                    android:id="@+id/add_open_home_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add open home"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/white"
+                    />-->
+
+    </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

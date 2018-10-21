@@ -1,5 +1,6 @@
 package com.beec.ss08;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -31,7 +32,7 @@ public class EmailPasswordActivity extends AppCompatActivity implements
     private EditText mPasswordField;
 
     // [START declare_auth]
-    private FirebaseAuth mAuth;
+    public static FirebaseAuth mAuth;
     // [END declare_auth]
 
     @Override
@@ -138,8 +139,9 @@ public class EmailPasswordActivity extends AppCompatActivity implements
         // [END sign_in_with_email]
     }
 
-    private void signOut() {
+    public void signOut() {
         mAuth.signOut();
+
         updateUI(null);
     }
 
@@ -199,7 +201,7 @@ public class EmailPasswordActivity extends AppCompatActivity implements
     private void updateUI(FirebaseUser user) {
         //hideProgressDialog();
         if (user != null) {
-            mStatusTextView.setText(getString(R.string.emailpassword_status_fmt,
+         /*   mStatusTextView.setText(getString(R.string.emailpassword_status_fmt,
                     user.getEmail(), user.isEmailVerified()));
             mDetailTextView.setText(getString(R.string.firebase_status_fmt, user.getUid()));
 
@@ -214,7 +216,10 @@ public class EmailPasswordActivity extends AppCompatActivity implements
 
             findViewById(R.id.emailPasswordButtons).setVisibility(View.VISIBLE);
             findViewById(R.id.emailPasswordFields).setVisibility(View.VISIBLE);
-            findViewById(R.id.signedInButtons).setVisibility(View.GONE);
+            findViewById(R.id.signedInButtons).setVisibility(View.GONE);*/
+            if (!user.isEmailVerified()){sendEmailVerification();}
+            Intent intent = new Intent(this, MainMenu.class);
+            startActivity(intent);
         }
     }
 
@@ -227,6 +232,8 @@ public class EmailPasswordActivity extends AppCompatActivity implements
             signIn(mEmailField.getText().toString(), mPasswordField.getText().toString());
         } else if (i == R.id.signOutButton) {
             signOut();
+            Toast.makeText(this, "papapapappa", Toast.LENGTH_SHORT);
+
         } else if (i == R.id.verifyEmailButton) {
             sendEmailVerification();
         }

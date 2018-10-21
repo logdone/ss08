@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaftyCheckFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingVertical="180dp"
+        android:paddingHorizontal="90dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You appear to be in area affected by x "
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are you safe ?"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            />
+
+        <Button
+            android:id="@+id/add_open_home_btn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:text="I'm safe"
+            android:theme="@style/ThemeOverlay.MyDarkButton"
+            android:background="@color/green_400"
+            />
+    </LinearLayout>
+
+</FrameLayout>

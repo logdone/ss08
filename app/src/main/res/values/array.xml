@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="places">
+        <item>Changed Garnie</item>
+        <item>Piazza del Duomo</item>
+        <item>Manhattan</item>
+        <item>Senso-ji</item>
+        <item>Sultan Ahmed Mosque</item>
+        <item>Table Mountain</item>
+    </string-array>
+    <string-array name="place_desc">
+        <item>The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+        </item>
+        <item>Piazza del Duomo the cathedral which locates in Florence.</item>
+        <item>Manhattan is the district in New York City</item>
+        <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
+        <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
+        <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
+    </string-array>
+    <string-array name="place_details">
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>8 Rue Scribe, 75009 Paris, France</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
+        <item>Cape Town, South Africa</item>
+    </string-array>
+    <array name="place_avator">
+        <item>@drawable/a_avator</item>
+        <item>@drawable/b_avator</item>
+        <item>@drawable/c_avator</item>
+        <item>@drawable/d_avator</item>
+        <item>@drawable/e_avator</item>
+        <item>@drawable/f_avator</item>
+    </array>
+    <array name="places_picture">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+    </array>
+
+
+    <string-array  name="map_points_type">
+        <item>TYPE_GAS_STATION</item>
+        <item>TYPE_HOSPITAL</item>
+        <item>TYPE_HOST</item>
+        <item>TYPE_SHELTER_BUNKER</item>
+        <item>TYPE_STORE</item>
+    </string-array >
+    <string-array  name="map_points_names">
+        <item> GAS STATION</item>
+        <item> HOSPITAL</item>
+        <item> HOST</item>
+        <item> SHELTER </item>
+        <item> STORE</item>
+    </string-array >
+
+    <string-array  name="map_points_desc">
+        <item> Gas Stations available outside the danger zone </item>
+        <item> Emergency Rooms and Pharmacies available outside the danger zone</item>
+        <item> Open Homes with the adequate capacity outside the danger zone</item>
+        <item> Shelters and Bunkers that will keep you safe</item>
+        <item> Supply shops outside the danger zone </item>
+    </string-array >
+
+    <array name="map_points_imgs">
+        <item>@drawable/gas</item>
+        <item>@drawable/hosp</item>
+        <item>@drawable/host_img</item>
+        <item>@drawable/shelter_img</item>
+        <item>@drawable/shop_img</item>
+<!--        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>-->
+
+    </array>
+
+
+
+   <!-- todo list-->
+
+    <string-array name="todo">
+    <item>Board up the house</item>
+    <item>Unplug any electrical devices</item>
+    <item>Cut down any nearby tree branches that might cause damage </item>
+    <item>Fill up on gas and secure the checklist</item>
+    <item>Determine the safest and quickest route to reach safety</item>
+    <item>Set up shelter or join an open house</item>
+</string-array>
+    <string-array name="todo_desc">
+        <item>The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+        </item>
+        <item>Piazza del Duomo the cathedral which locates in Florence.</item>
+        <item>Manhattan is the district in New York City</item>
+        <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
+        <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
+        <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
+    </string-array>
+    <string-array name="todo_details">
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+    </string-array>
+    <string-array name="todo_locations">
+        <item>8 Rue Scribe, 75009 Paris, France</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2–3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
+        <item>Cape Town, South Africa</item>
+    </string-array>
+    <array name="todo_picture">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+    </array>
+
+    <!-- check list-->
+
+    <string-array name="check">
+        <item>Water</item>
+        <item>Food</item>
+        <item>First Aid Kit</item>
+        <item>Tools</item>
+        <item>Sanitation</item>
+        <item>Special items (for babies, elderly people, people with special needs)</item>
+        <item>Entertainment</item>
+        <item>Pet Needs</item>
+        <item>Documents and Records</item>
+    </string-array>
+    <string-array name="check_desc">
+        <item>The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+        </item>
+        <item>Piazza del Duomo the cathedral which locates in Florence.</item>
+        <item>Manhattan is the district in New York City</item>
+        <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
+        <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
+        <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
+    </string-array>
+    <string-array name="check_details">
+        <item>- 2 liters of water per person per day for consumption. \n
+	- 1 liter of water per person per day for sanitation and food preparation.\n
+
+			   Age	 |	 Intake\n
+	Kids need: 5 to 8 -> 1 liter/day\n
+			   9 to 12 -> 1.5 liters/day\n
+			   13+ -> 2 liters/day.\n
+
+	- Water must be stored in plastic containers to avoid those that break or decompose.
+        </item>
+        <item>"- Canned meats, fruits and vegetables\n- Staples (salt, sugar, pepper, spices …)\n
+	- Rice, beans, grains (corn, wheat…) and raw honey.\n
+	- Food supplies should be non-perishable and shouldn\'t require refrigeration, cooking or much water.\n
+	- Food items should be compact and lightweight."
+        </item>
+        <item>
+            - Bandages / Adhesive Bandages \n
+	- Sterile dressings and adhesive tapes\n
+	- Antiseptic wipes / Disinfectant\n
+	- Cold pack\n
+	- OTC pain killers\n
+	- Laxative / Anti-diarrhea\n
+        </item>
+        <item>- Knife, scissors, tape, sterno, paper utencils, signal flare, storage containers, flashlight, power source (batteries, power bank, generator..), can opener, jumper cables…       </item>
+        <item>
+   - Toilet paper\n
+	- Sanitizer, hand wipes\n
+	- Liquid soap\n
+	- Plastic bags\n
+        </item>
+        <item>
+            - Diapers, baby formula\n
+	- Insulin / Prescription drugs…
+        </item>
+        <item>- Board games / Card games</item>
+        <item>- Collars, leashes, id tags, pet food…</item>
+        <item>- Id cards, credentials, passports…</item>
+    </string-array>
+
+    <array name="check_picture">
+        <item>@drawable/water_img</item>
+        <item>@drawable/food</item>
+        <item>@drawable/first_aid_img</item>
+        <item>@drawable/tools_img</item>
+        <item>@drawable/sanitation_img</item>
+        <item>@drawable/special_needs_img</item>
+        <item>@drawable/entertainment_img</item>
+        <item>@drawable/pet_needs_img</item>
+        <item>@drawable/documents</item>
+    </array>
+
+
+
+        <!--instructions-->
+    <string-array name="instructions">
+        <item>Unplug any electrical devices and phone wires</item>
+        <item>Cut down any nearby tree branches that might cause damage</item>
+        <item>Prepare a safe room in which you will keep your valued objects which you can\'t carry</item>
+        <item>Board up the house</item>
+        <item>Fill up on gas and secure the checklist</item>
+        <item>Determine the safest and quickest route to get to safety</item>
+        <item>Set up shelter or join an open home</item>
+    </string-array>
+    <string-array name="instruction_desc">
+        <item>Unplug any electrical devices and phone wires</item>
+        <item>Cut down any nearby tree branches that might cause damage</item>
+        <item>Prepare a safe room in which you will keep your valued objects which you can\'t carry</item>
+        <item>Board up the house</item>
+        <item>Fill up on gas and secure the checklist</item>
+        <item>Determine the safest and quickest route to get to safety</item>
+        <item>Set up shelter or join an open home</item>
+    </string-array>
+    <string-array name="instruction_details">
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+        </item>
+    </string-array>
+    <string-array name="instruction_locations">
+        <item>Unplug any electrical devices and phone wires</item>
+        <item>Cut down any nearby tree branches that might cause damage</item>
+        <item>Prepare a safe room in which you will keep your valued objects which you can\'t carry</item>
+        <item>Board up the house</item>
+        <item>Fill up on gas and secure the checklist</item>
+        <item>Determine the safest and quickest route to get to safety</item>
+        <item>Set up shelter or join an open home</item>
+    </string-array>
+
+    <array name="instructions_picture">
+        <item>@drawable/inst_1</item>
+        <item>@drawable/inst_2</item>
+        <item>@drawable/inst_3</item>
+        <item>@drawable/inst_4</item>
+        <item>@drawable/inst_5</item>
+        <item>@drawable/inst_6</item>
+        <item>@drawable/inst_7</item>
+    </array>
+
+    <array name="home_alert_picture">
+        <item>@drawable/alert1</item>
+        <item>@drawable/alert4</item>
+        <item>@drawable/alert3</item>
+        <item>@drawable/alert2</item>
+
+    </array>
+
+</resources>
